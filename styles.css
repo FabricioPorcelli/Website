@@ -24,7 +24,12 @@ body{
 }
 
 h1{
-    font-size: 36px;
+    font-size: var(--font-size-title-01);
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--font-size-title-02);
     text-align: center;
 }
 
@@ -32,6 +37,7 @@ p{
     font-size: var(--font-size-body);
     padding: 10px;
     margin: 20px;
+    text-align: center;
 }
 /*****************************************************/
 
@@ -200,6 +206,7 @@ a {
     font-size: var(--font-size-body);
     padding: 10px;
     margin: 20px;
+    text-align: center;
 }
 
 .myForm button {
@@ -235,7 +242,7 @@ a {
     color: white;
 }
 
-.myForm #email{
+.myForm #input{
     padding: 10px 16px;
     margin: 4px 2px;
     border: 2px solid var(--color-02);
