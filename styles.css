@@ -21,6 +21,11 @@
 body{
     background-color: var(--color-04);
     color: var(--color-01);
+    margin: 0px;
+    position: relative;
+    padding-bottom: 8.5em;
+    min-height: 100vh;
+
 }
 
 h1{
@@ -40,17 +45,6 @@ p{
     text-align: center;
 }
 /*****************************************************/
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-
-.column{
-    flex: 1;
-    padding: 10px;
-}
 
 @media(max-width:600px){
     .column{
@@ -107,7 +101,17 @@ nav a:hover{
     font-size: var(--font-size-title-02);
 }
 /*****************************************************/
-
+/*FOOTER*/
+.container-footer {
+    display: flex;
+    height: 50px;
+    background-color: var(--color-01);
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/*****************************************************/
 li>a {
     list-style-type: none;
 }
@@ -248,5 +252,51 @@ a {
     border: 2px solid var(--color-02);
     border-radius: 6px;
     font-family: monospace;
+}
+/*****************************************************/
+/*EFECTO TITULO HOME*/
+.wrapper{
+    margin: 0 35rem;
+    align-items: center;
+}
+.wrapper h1{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid var(--color-01);
+    width: 25ch;
+    animation: typing 2s steps(25),
+               blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+   from { width: 0 }
+}
+@keyframes blink {
+   50% { border-color: transparent }
+}
+
+/*****************************************************/
+/*IFRAME del HOME*/
+.wrapper-iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*****************************************************/
+/* FADE IN */
+.fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 /*****************************************************/
