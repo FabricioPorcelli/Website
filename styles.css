@@ -100,40 +100,8 @@ nav a:hover{
     align-items: center;
     font-size: var(--font-size-title-02);
 }
-/*****************************************************/
-/*FOOTER*/
-.container-footer {
-    /* display: flex; */
-    height: 150px;
-    background-color: var(--color-01);
-    padding: 1em 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-.footer-content {
-
-    color: var(--color-04);
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
-}
-.footer-content p {
-    padding: 0px;
-    margin: 12px;
-}
-.footer-redes {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-}
-
-/*****************************************************/
 li>a {
     list-style-type: none;
-}
-
-a {
     color: var(--color-01);
     text-decoration: none;
 }
@@ -150,6 +118,65 @@ a {
 .container {
     margin: 0px 40px 0px 40px;
 }
+
+a:visited {
+    color: var(--color-04);
+}
+/*****************************************************/
+/*FOOTER*/
+.container-footer {
+    /* display: flex; */
+    height: 150px;
+    background-color: var(--color-01);
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: var(--font-size-body);
+}
+.footer-content {
+
+    color: var(--color-04);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.footer-content a {
+    padding: 0px;
+    margin: 12px;
+    text-decoration: none;
+}
+
+.footer-content a:visited {
+    color: var(--color-04);
+}
+.footer-content a:hover{
+    color: var(--color-03);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-redes .one,
+.footer-redes .two,
+.footer-redes .three {
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-redes {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/*****************************************************/
 
 /*****************************************************/
 /*MEDIAS*/
