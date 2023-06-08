@@ -131,6 +131,7 @@ a:visited {
     padding: 1em 0;
     position: absolute;
     width: 100%;
+    height: auto;
     bottom: 0;
     font-size: var(--font-size-body);
 }
@@ -143,9 +144,13 @@ a:visited {
     grid-gap: 15px;
 }
 .footer-content a {
-    padding: 0px;
-    margin: 12px;
+    padding: 12px;
+    margin: 0px;
     text-decoration: none;
+    color: var(--color-04);
+}
+.footer-info p {
+    margin: 0px;
 }
 
 .footer-content a:visited {
@@ -154,6 +159,7 @@ a:visited {
 .footer-content a:hover{
     color: var(--color-03);
 }
+
 
 .footer-logo {
     display: flex;
@@ -302,6 +308,7 @@ a:visited {
 .wrapper{
     margin: 0 50rem;
     align-items: center;
+
 }
 .wrapper h1{
     display: block;
@@ -311,6 +318,9 @@ a:visited {
     animation: typing 2s steps(25),
                blink .5s infinite step-end alternate;
     overflow: hidden;
+}
+.container section {
+    margin: 0rem 20rem;
 }
 
 @keyframes typing {
