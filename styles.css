@@ -24,7 +24,7 @@ body{
     margin: 0px;
     position: relative;
     padding-bottom: 15em;
-    min-height: 100vh;
+    min-height: 80vh;
 
 }
 
@@ -102,7 +102,7 @@ nav a:hover{
 }
 li>a {
     list-style-type: none;
-    color: var(--color-01);
+    color: var(--color-04);
     text-decoration: none;
 }
 
@@ -235,8 +235,8 @@ a:visited {
 /*****************************************************/
 
 /*****************************************************/
-/*Images about.html*/
-.imagenes-about {
+/*Images mypath.html*/
+.imagenes-mypath {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -246,7 +246,7 @@ a:visited {
     flex-shrink: inherit;
 }
 
-.imagenes-about img {
+.imagenes-mypath img {
     width: auto;
     height: auto;
 }
@@ -354,3 +354,4 @@ a:visited {
     }
 }
 /*****************************************************/
+
