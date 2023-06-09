@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="svgs/code (1).svg">
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/timeline.css"> -->
     <title>¡Bienvenido!</title>
 </head>
 <body class="fadeIn">
@@ -17,21 +18,20 @@
             <a href="home.html" class="brand">Fabricio Porcelli</a>
             <ul class="nav-links">
                 <li><a href="home.html">Inicio</a></li>
-                <li><a href="mypath.html">Sobre mi</a></li>
+                <li><a href="mypath.html">Mi camino</a></li>
                 <li><a href="services.html">Servicios</a></li>
                 <li><a href="contact.html">Contacto</a></li>
             </ul>
         </nav>
         <button class="button-menu-toggle">Menu</button>
     </div>
+    <!-- <h1>Mi camino</h1> -->
     <div class="container">
-        <h1>Mi camino</h1>
-        <p>Aqui estará la linea historica de mis estudios y preparación en el ambito del desarrollo.</p>
-        <div class="imagenes-mypath">
-            <img src="images/image-mypath.png" alt="" />
-            <img src="images/image-mypath.png" alt="" />
-            <img src="images/image-mypath.png" alt="" />
+        <div class="timeline-container">
+            <div id="timeline"></div>
+
         </div>
+
     </div>
     <!-- <button onclick="showAlert()">¡Haz clic en mí!</button> -->
     <footer class="container-footer">
@@ -65,5 +65,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/timeline.js"></script>
 </body>
 </html>

@@ -354,4 +354,125 @@ a:visited {
     }
 }
 /*****************************************************/
+/* TIMELINE */
 
+.timeline-container {
+    display: block;
+    height: 1790px; /* #crotada */
+}
+
+#timeline{
+    content: '';
+    position: absolute;
+    background: var(--color-01);
+    width: 5px;
+    left: 50%;
+}
+.child{
+    position: relative;
+    margin: 20px;
+    /* opacity: 0; */
+}
+
+/* IMPARES */
+.child:nth-child(odd){
+    float: left;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-01); /* rgba(255, 255, 255, 0.3) */
+}
+.child:nth-child(odd) p{
+    text-align: left;
+}
+.child:nth-child(odd)::before{
+    content: '';
+    position: absolute;
+    background: var(--color-01);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+}
+.child:nth-child(odd)::after{
+    content: '';
+    position: absolute;
+    background: var(--color-01);
+    width: 10px;
+    height: 2px;
+    left: -10px;
+    top: 10px;
+}
+
+/* PARES */
+.child:nth-child(even){
+    float: right;
+    border-radius: 20px 0px 20px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-01); /*rgba(255, 255, 255, 0.3);*/
+}
+.child:nth-child(even) p{
+    text-align: right;
+}
+.child:nth-child(even)::before{
+    content: '';
+    position: absolute;
+    background: var(--color-01);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    right: -30px;
+}
+.child:nth-child(even)::after{
+    content: '';
+    position: absolute;
+    background: var(--color-01);
+    width: 10px;
+    height: 2px;
+    right: -10px;
+    top: 10px;
+}
+.content{
+    width: 400px;
+    padding: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    color: var(--color-01);
+    /* background: rgb(255,255,255,0.2); */
+}
+
+.child:nth-child(odd) .content{
+    border-radius: 0px 16px 16px 16px;
+}
+
+.child:nth-child(even) .content{
+    border-radius: 16px 0px 16px 16px;
+}
+
+.content p {
+    margin: 0px;
+}
+
+/* ANIMACION TIMELINE */
+/* .show {
+    opacity: 1;
+    animation: __show 1s cubic-bezier(.99,-.7,.2,1.9);
+}
+.hide {
+    opacity: 0;
+    animation: __hide 1s cubic-bezier(.99,-.7,.2,1.9);
+}
+
+@keyframes __show {
+    0% { transform: translateY(500px); opacity: 0;}
+    100% { transform: translateY(0); opacity: 1;}
+}
+
+@keyframes __hide {
+    0% { transform: translateY(0); opacity: 1;}
+    100% { transform: translateY(500px); opacity: 0;}
+} */
+
+/*****************************************************/
