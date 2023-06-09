@@ -302,7 +302,7 @@ a:visited {
 
 .myForm #input{
     padding: 10px 16px;
-    margin: 4px 2px;
+    margin: 12px 2px;
     border: 2px solid var(--color-02);
     border-radius: 6px;
     width: 50%;
@@ -312,6 +312,7 @@ a:visited {
 #correo{
     display: none;
 }
+
 
 /*****************************************************/
 /*EFECTO TITULO HOME*/
