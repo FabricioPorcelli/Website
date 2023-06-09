@@ -261,6 +261,10 @@ a:visited {
     padding: 10px;
     margin: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .myForm button {
@@ -301,8 +305,14 @@ a:visited {
     margin: 4px 2px;
     border: 2px solid var(--color-02);
     border-radius: 6px;
+    width: 50%;
     font-family: monospace;
 }
+
+#correo{
+    display: none;
+}
+
 /*****************************************************/
 /*EFECTO TITULO HOME*/
 .wrapper{

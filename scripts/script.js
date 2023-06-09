@@ -1,7 +1,3 @@
-function showAlert () {
-    alert("Hola, esta es una alerta desde Javascript!");
-}
-
 document.querySelector("button.button-menu-toggle")
     .addEventListener("click", function() {
         document.querySelector(".nav-links").
@@ -27,4 +23,3 @@ function validateForm() {
         alert('Correo electrónico enviado correctamente.');
     }
 }
-
