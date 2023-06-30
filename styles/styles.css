@@ -532,3 +532,10 @@ a:visited {
 } */
 
 /*****************************************************/
+
+.container-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*****************************************************/
