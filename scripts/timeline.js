@@ -4,28 +4,28 @@
 // array
 const historia = [
     {
-        name:"1.",
-        description:"Había una vez un joven apasionado por la programación. Desde muy temprana edad, dedicó horas interminables a estudiar lenguajes de programación y desarrollar sus habilidades informáticas. Su esfuerzo y dedicación dieron sus frutos cuando consiguió un empleo en una prestigiosa empresa tecnológica."
+        name:"2019",
+        description:"I finish the secondry school getting the Electronics Technician degree"
     },
     {
-        name:"2.",
-        description:"El peronismo resurgió con fuerza y nuevas políticas económicas se implementaron. El peso de los impuestos aumentó drásticamente y las regulaciones laborales se volvieron más restrictivas. La empresa en la que trabajaba se vio obligada a reducir costos y comenzaron los despidos masivos."
+        name:"2020",
+        description:"Living the covid-19 pandemic, I started some courses of web development in Udemy, some basic concepts, html, css..."
     },
     {
-        name:"3.",
-        description:"El programador, junto a muchos otros empleados, fue despedido y se encontró en una situación desfavorable. La falta de oportunidades y la inflación galopante hicieron estragos en su economía personal. Pronto, se vio obligado a vender sus pertenencias y buscar alternativas para subsistir."
+        name:"2021",
+        description:"I started my career as a systems analyst at the Rosario Polytechnic Higher Institute, passing all 1st year subjects"
     },
     {
-        name:"4.",
-        description:"A pesar de su talento y experiencia, el programador luchaba por encontrar empleo en un mercado laboral cada vez más precario. Sus habilidades, que antes eran altamente valoradas, ahora parecían perder relevancia ante la crisis económica y las políticas gubernamentales desastrosas de los peronchos."
+        name:"2022",
+        description:"I continue my studies at the faculty, some of the approved contents are: object oriented programming with Java, relational databases, SQL, statistics and probability."
     },
     {
-        name:"5.",
-        description:"Así, el programador que una vez soñó con un futuro próspero y exitoso, se encontraba sumido en la pobreza y la incertidumbre. Sin embargo, no se dio por vencido. Siguió actualizándose y adaptándose a las nuevas demandas del mercado, esperando que algún día las circunstancias cambien y pueda retomar su camino hacia la prosperidad."
+        name:"2023",
+        description:"Interested in other areas of the IT world, and taking advantage of the infinite quality content available on the Internet, I began courses such as the Python for Everyone Specialization (from the University of Michigan), Introduction to Statistics (Harvard University) and Data Science Specialization (IBM)."
     },
     {
-        name:"6.",
-        description:"Obviamente esto no fue generado por IA... no para nada..."
+        name:"2024",
+        description:"After completing some of the courses, I changed my career to a degree in artificial intelligence at the National University of Rosario, to fully immerse myself in the world of data science."
     }
 
 ]
