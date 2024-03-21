@@ -4,6 +4,10 @@
 // array
 const historia = [
     {
+        name:"2018",
+        description:"Having finished my studies at the Churchill Institute, I take and pass the First Certificate in English exam, achieving a B2 level of English."
+    },
+    {
         name:"2019",
         description:"I finish the secondry school getting the Electronics Technician degree"
     },
